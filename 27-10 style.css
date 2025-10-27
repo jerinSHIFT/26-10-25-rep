@@ -1,0 +1,27 @@
+ .title{
+
+text-align: center;
+
+} 
+
+.main-section{
+    margin: 20px auto;
+width:60vw;
+/* display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center; */
+
+}
+.single-task{
+
+
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.single-task div {
+  display: flex;
+  gap: 8px;            /* space between buttons */
+  align-items: center;
+}
